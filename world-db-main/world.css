@@ -1,1 +1,79 @@
-/* Add your own styles */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1a1a1a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+
+#controls {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#country {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#lookup{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+    color: #fff;
+    cursor: pointer;
+}
+#lookupCities{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+    color: #fff;
+    cursor: pointer;
+}
+
+#lookup:hover {
+    background-color: #333;
+}
+#lookupCities:hover {
+    background-color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd; 
+}
+
+th {
+   background-color: #f2f2f2; 
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
